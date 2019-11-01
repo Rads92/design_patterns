@@ -1,0 +1,13 @@
+{
+  "name": "strategy_pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc --module es6 --target ES6 --outDir ./dist ./src/main.ts && node --experimental-modules --es-module-specifier-resolution=node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
